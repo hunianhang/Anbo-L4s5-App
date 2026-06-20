@@ -41,6 +41,10 @@ powershell -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
 ### WSL / Linux / macOS
+Prerequisites: bash, curl, tar  (standard on any Linux/WSL/macOS)
+```bash
+sudo apt update && sudo apt install -y curl tar unzip
+```
 
 ```bash
 git clone --recursive <repo-url>
